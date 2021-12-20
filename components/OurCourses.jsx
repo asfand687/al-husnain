@@ -5,7 +5,7 @@ import { courses } from '../data/data'
 function OurCourses() {
 	return (
 		<section className='w-full lg:max-w-7xl text-gray-600 py-10 px-4 mx-auto flex flex-col items-center'>
-			<div className='grid grid-cols-3 gap-6'>
+			<div className='grid grid-cols-1 lg:grid-cols-3 gap-6'>
 				{courses.map((course) => (
 					<article key={course.id} className='w-80 rounded-md shadow-2xl'>
 						<Image
