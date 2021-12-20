@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
+import OurCourses from '../components/OurCourses'
 import RegisterYourself from '../components/RegisterYourself'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
 				<Navbar />
 				<Hero />
 			</header>
+			<OurCourses />
 			<RegisterYourself />
 			<Footer />
 		</div>

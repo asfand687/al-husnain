@@ -42,7 +42,7 @@ function RegisterYourself() {
 								placeholder='Religion'
 							/>
 						</div>
-						<div class='flex w-full items-center justify-between'>
+						<div className='flex w-full items-center justify-between'>
 							<button
 								class='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
 								type='button'
