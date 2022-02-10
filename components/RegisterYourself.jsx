@@ -44,7 +44,7 @@ function RegisterYourself() {
 						</div>
 						<div className='flex w-full items-center justify-between'>
 							<button
-								class='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+								className='inline-flex bg-[#613A3A] px-10 text-[#DCEFFD] font-medium hover:opacity-80 py-3 rounded mt-4 uppercase'
 								type='button'
 							>
 								Submit

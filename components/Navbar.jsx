@@ -5,15 +5,15 @@ import { FaTimes, FaBars } from 'react-icons/fa'
 const Navbar = () => {
 	const [showDrawer, setShowDrawer] = useState(false)
 	return (
-		<nav className='px-4 bg-[#2C6E49]'>
-			<div className='w-full lg:max-w-7xl p-4 mx-auto flex items-center justify-between '>
+		<nav className='px-4 bg-[#77FF94] text-[#613A3A]'>
+			<div className='w-full lg:max-w-7xl p-4 mx-auto flex items-center justify-between'>
 				<div className='flex items-center'>
 					<div className='pr-8 text-2xl font-bold font-mono'>
 						<Link href='/'>
 							<a>Al Hasnain</a>
 						</Link>
 					</div>
-					<ul className='hidden lg:flex space-x-8'>
+					<ul className='hidden font-medium lg:flex space-x-8'>
 						<li>
 							<Link href='/WebDevelopmentCourse'>Home</Link>
 						</li>
@@ -56,7 +56,7 @@ const Navbar = () => {
 						</div>
 					</ul>
 				</div>
-				<div className='flex items-center space-x-4 lg:block'>
+				<div className='flex font-medium items-center space-x-4 lg:block'>
 					<Link href='#'>
 						<a>Login</a>
 					</Link>
